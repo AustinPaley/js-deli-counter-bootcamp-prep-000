@@ -15,13 +15,13 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 //  return "There is nobody waiting to be served!"
 //}
 //else
-//return (`Currently serving ${katzDeliLine.shift()}.`)
+//return `Currently serving ${katzDeliLine.shift()}.`
 //}
 
-function nowServing(katzDeliLine){
-var line = (katzDeliLine.length != 0) ? `Currently serving ${katzDeliLine.shift()}.` : "There is nobody waiting to be served!";
-return line
-}
+//function nowServing(katzDeliLine){
+//var line = (katzDeliLine.length != 0) ? `Currently serving ${katzDeliLine.shift()}.` : "There is nobody waiting to be served!";
+//return line
+//}
 
 //
 //function currentLine(katzDeliLine) {
